@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 import numpy as np
+pip install -U scikit-learn
 
 
 model = pickle.load(open('spam.pkl','rb'))
